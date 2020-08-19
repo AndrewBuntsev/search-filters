@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    align-items: flex-start;
+}
+
+.contentWithHeader{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.header{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.chevron{
+    cursor: pointer;
+}
+
+.content{
+    align-self: stretch;
+}

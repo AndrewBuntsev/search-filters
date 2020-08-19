@@ -1,0 +1,19 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.filters{
+    flex: 1;
+    font-size: 20px;
+}
+
+.clean{
+    flex: 1;
+    color: rgb(14, 14, 158);
+    cursor: pointer;
+    text-align: right;
+    font-weight: bold;
+}
